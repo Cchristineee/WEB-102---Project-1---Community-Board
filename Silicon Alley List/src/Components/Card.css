@@ -1,0 +1,59 @@
+.Card {
+    color: #000;
+    background-color: #fff;
+    padding: 18px 0px;
+    box-shadow: 0 10px 20px rgba(129, 124, 124, 0.2);
+    font-size: 0.95rem;
+    border-radius: 14px;
+    backdrop-filter: blur(2px);
+    text-align: center;
+    margin: 0 auto 24px;
+    width: min(320px, 100%);
+    min-height: 320px;
+}
+
+.job-title {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin: 16px 0 10px;
+}
+
+.company-name {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.location {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 0.9rem;
+    color: #333;
+    padding: 0 15px;
+}
+
+.Learn-more-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 9px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    margin-top: 18px;
+}
+
+.card-image {
+    display: block;
+    margin: 0 auto 12px;
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 8px;
+}
+
