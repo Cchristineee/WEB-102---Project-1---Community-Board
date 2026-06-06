@@ -29,7 +29,7 @@ const App = () => {
           <Card 
           image="/Spotify-Icon-Logo.svg"
           company="Spotify"
-          title="Data Science, Intern"
+          title="Backend Engineer, Podcast"
           location="150 Greenwich St, New York, NY 10007 (Hybrid)"
           />
 
