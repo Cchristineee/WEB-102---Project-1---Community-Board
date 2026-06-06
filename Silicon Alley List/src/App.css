@@ -36,10 +36,14 @@ h1.nyc-heading {
 }
 
 .card-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  justify-items: center;
   padding-top: 1.5rem;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 /* Styling for Mobile */
@@ -47,5 +51,10 @@ h1.nyc-heading {
   h1.nyc-heading {
     font-size: 32px;
     line-height: 1.2;
+  }
+
+  .card-section {
+    grid-template-columns: 1fr;
+    gap: 16px;
   }
 } 
