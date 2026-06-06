@@ -32,11 +32,11 @@ const App = () => {
           title="Data Science, Intern"
           location="150 Greenwich St, New York, NY 10007 (Hybrid)"
           />
-          
+
           <Card 
           image="/Braze_Social_Profile.avif"
           company="Braze"
-          title="Solutions Engineer, Security & Privacy"
+          title="IT Associate"
           location="63 Madison Ave 13th Floor, New York, NY 10016"
           />
 
