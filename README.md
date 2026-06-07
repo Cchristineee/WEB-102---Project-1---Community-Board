@@ -22,30 +22,27 @@ The following **optional** features are implemented:
 
 - [✅] Buttons or links to a related resources are on each card component
   - [✅] All cards have buttons or links in addition to text
-- [ ] The site is responsive for both desktop and mobile formats
-  - [ ] Web app is shown in a mobile format
-  - [ ] **Video Walkthrough Special Instructions**: To ease the grading process, please use Chrome Developer Tools' "Toggle Device" button to demonstrate that your web application's responsiveness in both a desktop *and* a mobile format. Detailed instructions can be found below this stretch feature on the project page. 
+- [✅] The site is responsive for both desktop and mobile formats
+  - [✅] Web app is shown in a mobile format
+  - [✅] **Video Walkthrough Special Instructions**: To ease the grading process, please use Chrome Developer Tools' "Toggle Device" button to demonstrate that your web application's responsiveness in both a desktop *and* a mobile format. Detailed instructions can be found below this stretch feature on the project page. 
 
 The following **additional** features are implemented:
 
 * [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
-
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+**Desktop Layout:**
+<img width="1366" height="667" alt="SiliconAlleyList" src="https://github.com/user-attachments/assets/317abf24-0db1-4aa9-aee1-e9d7e5cdcb7b" />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+**Mobile Layout:** <br>
+<img width="367" height="598" alt="SiliconAlleyListMobile" src="https://github.com/user-attachments/assets/4815e4fb-ed16-4b07-b520-1c397f3b80cd" />
+
+GIFs created with LICEcap and converted from EZgif 
 
 ## Notes
-
-Describe any challenges encountered while building the app.
+One of my main challenges for me was creating a responsive grid layout for the cards. I initially struggled with organizing the cards evenly and ensuring they displayed properly across different screen sizes. Through experimenting with CSS Grid and media queries, I was able to create a layout that automatically adjusts to desktop and mobile devices while maintaining consistent spacing and card alignment.
 
 ## License
 
