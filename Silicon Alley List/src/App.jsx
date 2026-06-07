@@ -59,6 +59,22 @@ const App = () => {
           link="https://careers.upstart.com/jobs/infrastructure-security-engineer"
           location="New York, NY (Remote)"
           />
+
+          <Card 
+          image="/Optimum-logo.jpg"
+          company="Optimum"
+          title="Product Manager-Entertainment"
+          link="https://www.optimumcareers.com/job/Long-Island-City-Product-Manager-Entertainment-NY-11101/1380292300/"
+          location="Long Island City, NY, US, 11101"
+          />
+
+          <Card 
+          image="/Mastercard-Logo.png"
+          company="MasterCard"
+          title="Analyst, Strategy & Operations"
+          link="https://careers.mastercard.com/us/en/job/R-278974/Analyst-Strategy-Operations"
+          location="New York, NY 10016"
+          />
       </main>
     </div>
   )
