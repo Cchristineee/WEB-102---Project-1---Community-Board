@@ -9,6 +9,7 @@ const App = () => {
       {/* header layout */}
       <header className="header-container">
         <h1 className="nyc-heading">Silicon Alley List</h1>
+        <h2 className="nyc-subtitle">Curated internships and new grad opportunities from NYC tech companies.</h2>
       </header>
 
       <main className="card-section">

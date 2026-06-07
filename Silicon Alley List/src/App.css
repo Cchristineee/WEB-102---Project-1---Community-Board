@@ -1,14 +1,4 @@
-/* I'm going to be using Clash Grotesk for the font so i have to 
-declare it her since the NYC website uses this font */
-
-@font-face {
-  font-family: 'Clash Grotesk';
-  src: url('./assets/fonts/ClashGrotesk-SemiBold.woff2') format('woff2'),
-       url('./assets/fonts/ClashGrotesk-SemiBold.woff') format('woff');
-  font-weight: 600; /* SemiBold weight */
-  font-style: normal; 
-  font-display: swap; /* Using 'swap' to ensure text is visible while the font loads */
-}
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
 
 #root {
   width: 100%;
@@ -16,7 +6,7 @@ declare it her since the NYC website uses this font */
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  font-family: 'Clash Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'Space Grotesk', 'Inter', Arial, sans-serif;
   color: #1c1c1c;
 }
 
@@ -31,6 +21,11 @@ body {
 /* Styling for Desktop */
 h1.nyc-heading {
   font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h2.nyc-subtitle {
+  font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
