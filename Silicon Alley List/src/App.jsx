@@ -15,7 +15,7 @@ const App = () => {
         <Card 
           image="/Northslope_Icon.avif"
           company="Northslope"
-          title="Software Engineer, New Grad"
+          title="Software Engineer"
           link="https://www.builtinnyc.com/job/forward-deployed-software-engineer-new-grad/8697606"
           location="New York, NY (Hybrid)"
           />
@@ -23,17 +23,17 @@ const App = () => {
           <Card 
           image="/Pinterest.svg.png"
           company="Pinterest"
-          title="Fall Machine Learning Internship (Masters)"
+          title="ML Internship"
           link="https://www.pinterestcareers.com/jobs/7253017/masters-fall-machine-learning-internship-atg-visual-search/?gh_jid=7253017"
-          location="11 Madison Ave, New York, NY 10010 (Hybrid)"
+          location="New York, NY 10010"
           />
 
           <Card 
           image="/Spotify-Icon-Logo.svg"
           company="Spotify"
-          title="Backend Engineer, Podcast"
+          title="Backend Engineer"
           link="https://www.lifeatspotify.com/jobs/backend-engineer-podcast-2"
-          location="150 Greenwich St, New York, NY 10007 (Hybrid)"
+          location="New York, NY 10007 (Hybrid)"
           />
 
           <Card 
@@ -41,7 +41,7 @@ const App = () => {
           company="Braze"
           title="IT Associate"
           link="https://wellfound.com/jobs/4307519-it-associate"
-          location="63 Madison Ave 13th Floor, New York, NY 10016"
+          location="New York, NY 10016"
           />
 
           <Card 
@@ -55,7 +55,7 @@ const App = () => {
           <Card 
           image="/upstart logo.avif"
           company="Upstart"
-          title="Infrastructure Security Engineer"
+          title="Security Engineer"
           link="https://careers.upstart.com/jobs/infrastructure-security-engineer"
           location="New York, NY (Remote)"
           />
@@ -63,17 +63,33 @@ const App = () => {
           <Card 
           image="/Optimum-logo.jpg"
           company="Optimum"
-          title="Product Manager-Entertainment"
+          title="Product Manager"
           link="https://www.optimumcareers.com/job/Long-Island-City-Product-Manager-Entertainment-NY-11101/1380292300/"
-          location="Long Island City, NY, US, 11101"
+          location="New York, NY 11101"
           />
 
           <Card 
           image="/Mastercard-Logo.png"
           company="MasterCard"
           title="Analyst, Strategy & Operations"
-          link="https://careers.mastercard.com/us/en/job/R-278974/Analyst-Strategy-Operations"
+          link="https://www.builtinnyc.com/job/analyst-strategy-operations/9541251"
           location="New York, NY 10016"
+          />
+
+          <Card 
+          image="/seatgeek_logo.jpg"
+          company="Seat Geek"
+          title="Software Engineer"
+          link="https://job-boards.greenhouse.io/embed/job_app?for=seatgeek&gh_src=94e407181&token=7858968"
+          location="New York, NY 10010"
+          />
+
+          <Card 
+          image="/polymarket_logo.jpg"
+          company="Polymarket"
+          title="Marketing & Finance Intern"
+          link="https://jobs.ashbyhq.com/polymarket/9fbf8f68-5f92-434d-a00b-c79f99f5a10e"
+          location="New York, NY (Remote)"
           />
       </main>
     </div>
