@@ -44,6 +44,21 @@ const App = () => {
           location="63 Madison Ave 13th Floor, New York, NY 10016"
           />
 
+          <Card 
+          image="/RocketMoney.png"
+          company="Rocket Money"
+          title="Operations Associate"
+          link="https://wellfound.com/jobs/4220193-operations-associate"
+          location="New York, NY (Remote)"
+          />
+
+          <Card 
+          image="/upstart logo.avif"
+          company="Upstart"
+          title="Infrastructure Security Engineer"
+          link="https://careers.upstart.com/jobs/infrastructure-security-engineer"
+          location="New York, NY (Remote)"
+          />
       </main>
     </div>
   )
