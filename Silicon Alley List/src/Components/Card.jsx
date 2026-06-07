@@ -11,7 +11,7 @@ const Card = ({ image, company, title, location, link }) => {
                             <h4 className="location">{location}</h4>
                         </div>
                         {link ? (
-                            <a className="Learn-more-button" href={link} target="_blank" rel="noopener noreferrer">Learn More</a>
+                            <a className="Learn-more-button" href={link}>Learn More</a>
                         ) : (
                             <button className="Learn-more-button">Learn More</button>
                         )}
